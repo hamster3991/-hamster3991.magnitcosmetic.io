@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link href="styles/main.css" rel="stylesheet"></head>
+<body>
+<header class="header">
+    
+    
+
+<nav class="header__menu menu">
+    <button class="menu__button j-menu-btn" type="button" aria-expanded="false" aria-controls="menu__list">
+        <span class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </span>
+    </button>
+    <ul class="menu__list" id="menu__list">
+        
+            <li class="menu__item">
+                <a class="menu__link menu__link--current j-slow" href="#how-to-join">Как участвовать</a>
+            </li>
+        
+            <li class="menu__item">
+                <a class="menu__link j-slow" href="#gifts">Призы</a>
+            </li>
+        
+            <li class="menu__item">
+                <a class="menu__link j-slow" href="#invite">Пригласить друзей</a>
+            </li>
+        
+    </ul>
+</nav>
+    <img src="./images/logo.svg" alt="Логотип" class="logo">
+</header>
+<main>
+    <section class="videoSection">
+        <video muted="muted" autoplay="autoplay" playsinline="" loop="loop" poster="./images/video-poster.jpg" class="videoSection__video">
+            <source src="./video/benetton-video.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section class="topSection">
+        <img src="./images/video-poster-992.jpg" srcset="./images/video-poster-992@2x.jpg 2x" alt="" class="topSection__pic">
+        <div class="topSection__content toTop">
+            <img src="./images/sisterland.png" srcset="./images/sisterland@2x.png 2x" alt="SISTERLAND"
+                 class="topSection__img">
+            <h1 class="text-center animateTitles">
+                <span class="animateTitle animateTitle--primary animateTitle--clockwise-1">
+                    <span class="animateTitle__text">Собери подруг</span>
+                </span>
+                <span class="animateTitle animateTitle--secondary animateTitle--counterclockwise-1">
+                    <span class="animateTitle__text">на музыкальном фестивале</span>
+                </span>
+            </h1>
+            <a href="#" class="button">Зарегистрироваться</a>
+        </div>
+    </section>
+    <section class="stepsSection" id="how-to-join">
+        <h2 class="text-center animateTitles font-normal">
+            <span class="animateTitle animateTitle--secondary animateTitle--clockwise-1">
+                <span class="animateTitle__text">Покупай ароматы</span>
+            </span>
+            <span class="animateTitle animateTitle--primary-light animateTitle--counterclockwise-1">
+                <span class="animateTitle__text">united colors of benetton</span>
+            </span>
+            <span class="animateTitle animateTitle--primary animateTitle--clockwise-2">
+                <span class="animateTitle__text">и выигрывай призы</span>
+            </span>
+        </h2>
+        <div class="steps">
+            <div class="steps__row steps__row--numbers">
+                <div class="steps__item"><span class="steps__number">1</span></div>
+                <div class="steps__item"><span class="steps__number">2</span></div>
+                <div class="steps__item"><span class="steps__number">3</span></div>
+                <div class="steps__item"><span class="steps__number">4</span></div>
+            </div>
+           <div class="steps__row steps__row--text">
+               <div class="steps__item">
+                   <span class="steps__number">1</span>
+                   <b class="steps__title">Купи</b>
+                   <div class="steps__text">любой аромат Benetton 50 мл, 100 мл или 2 аромата по 30 мл в магазинах Магнит Косметик
+                   </div>
+                   <a href="/products" class="button button--small j-slow">найти свой аромат</a>
+               </div>
+               <div class="steps__item">
+                   <span class="steps__number">2</span>
+                   <b class="steps__title">Загрузи</b>
+                   <div class="steps__text">чек от покупки <br>на сайте и получи гарантированный приз*</div>
+                   <a href="/receipts" class="button button--small">Загрузить чек</a>
+               </div>
+               <div class="steps__item">
+                   <span class="steps__number">3</span>
+                   <b class="steps__title">Участвуй</b>
+                   <div class="steps__text">в фестивале Sisterland и получи возможность выиграть еще больше призов!</div>
+                   <a href="#gifts" class="button button--small j-slow">Призы</a>
+               </div>
+               <div class="steps__item">
+                   <span class="steps__number">4</span>
+                   <b class="steps__title">Приглашай</b>
+                   <div class="steps__text">друзей <br>на фестиваль и получай дополнительные призы**</div>
+                   <a href="#invite" class="button button--small j-slow">пригласить друзей</a>
+               </div>
+           </div>
+        </div>
+    </section>
+    <section class="videoRoundSection">
+        <video muted="muted" autoplay="autoplay" playsinline loop="loop" poster="./images/video-poster.jpg" class="videoRoundSection__video">
+            <source src="./video/benetton-video.mp4" type="video/mp4">
+        </video>
+    </section>
+    <div class="gradientSection"></div>
+    <section class="roadSection" id="gifts">
+        
+        
+
+
+    <div class="road__item road__item--image" data-order="1">
+        
+        <img src="./images/road-1.jpg"  srcset="./images/road-1@2x.jpg 2x"  alt="" class="road__bg">
+        
+        
+        
+        
+    </div>
+
+    <div class="road__item bg-primary road__item--reverse" data-order="6">
+        
+        
+        <h2>Главный приз</h2>
+        
+        
+        
+        <p>Поездка на троих на музыкальный фестиваль в Сочи, которая включает VIP-билеты и сертификат для организации поездки.</p>
+        
+    </div>
+
+    <div class="road__item bg-primary-light" data-order="3">
+        
+        
+        <h2>Еженеде&shy;льно</h2>
+        
+        
+        <img src="./images/road-2-small.png"  srcset="./images/road-2-small@2x.png 2x"  alt="" class="road__img">
+        
+        
+        <p>Две умные колонки «Яндекс Станция второго поколения» для&nbsp;шумных вечеринок с подругами</p>
+        
+    </div>
+
+    <div class="road__item road__item--image road__item--reverse" data-order="4">
+        
+        <img src="./images/road-2.jpg"  srcset="./images/road-2@2x.jpg 2x"  alt="" class="road__bg">
+        
+        
+        
+        
+    </div>
+
+    <div class="road__item road__item--image" data-order="5">
+        
+        <img src="./images/road-3.jpg"  srcset="./images/road-3@2x.jpg 2x"  alt="" class="road__bg">
+        
+        
+        
+        
+    </div>
+
+    <div class="road__item bg-secondary road__item--reverse" data-order="2">
+        
+        
+        <h2>Гаранти&shy;рованно</h2>
+        
+        
+        <img src="./images/road-1-small.png"  srcset="./images/road-1-small@2x.png 2x"  alt="" class="road__img">
+        
+        
+        <p>Сертификат на 300 рублей в Магнит Косметик для создания фестивального образа.</p><p class='small-text'>Получат первые 1500 участников, зарегистрировавших чек.</p>
+        
+    </div>
+
+
+    </section>
+    <section class="playlistSection">
+        
+
+<div class="h-scroll">
+    <div class="h-scroll__container">
+        <div class="h-scroll__body">
+            <div class="playlist">
+                <div class="playlist__text">
+                    <div class="animateTitles">
+                        <h2 class="animateTitle animateTitle--secondary animateTitle--counterclockwise-1">
+                            <span class="animateTitle__text">Зажигай вместе с подругами под наши плейлисты</span>
+                        </h2>
+                        <div class="animateTitle animateTitle--primary-light animateTitle--clockwise-1">
+                            <span class="animateTitle__text">Выбирай свое настроение или создавай его для своих друзей.</span>
+                        </div>
+                    </div>
+                    <div class="playlist__btns">
+                        <a href="https://music.yandex.ru/users/promobenetton/playlists" target="_blank" class="button">Слушать на <img src="./images/logo_yandex.svg" alt="Яндекс Музыка"></a>
+                    </div>
+                </div>
+                <div class="playlist__items">
+                    <a href="https://music.yandex.ru/users/promobenetton/playlists/1001" class="playlist__item" target="_blank">
+                        <img src="./images/indie.jpg" srcset="./images/indie@2x.jpg 2x" alt="Indie rock">
+                    </a>
+                    <a href="https://music.yandex.ru/users/promobenetton/playlists/1002" class="playlist__item" target="_blank">
+                        <img src="./images/electro.jpg" srcset="./images/electro@2x.jpg 2x" alt="Electronic">
+                    </a>
+                    <a href="https://music.yandex.ru/users/promobenetton/playlists/1000" class="playlist__item" target="_blank">
+                        <img src="./images/pop.jpg" srcset="./images/pop@2x.jpg 2x" alt="Pop">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+    <section class="inviteSection" id="invite">
+        <div class="invite">
+            <img src="./images/music.png" srcset="./images/music@2x.png 2x" alt="" class="invite__img animateImg">
+            <h2 class="animateTitles text-center">
+            <span class="animateTitle animateTitle--secondary animateTitle--counterclockwise-1">
+                <span class="animateTitle__text">
+                     Пригласи друзей
+                </span>
+            </span>
+                <span class="animateTitle animateTitle--primary-light animateTitle--clockwise-1 font-normal">
+                <span class="animateTitle__text">
+                    на фестиваль
+                </span>
+            </span>
+            </h2>
+            <div class="animateTitles invite__text">
+            <span class="animateTitle animateTitle--primary animateTitle--counterclockwise-2">
+                <span class="animateTitle__text">
+                    Пригласи друзей участвовать в нашей акции с помощью уникальной ссылки и получи гарантированный подарок** — сертификат Яндекс Плюс Мульти на 299 рублей
+                </span>
+            </span>
+            </div>
+            <!-- в инпуте текст для копирования -->
+            <input type="hidden" value="https://ссылка" data-copy="link">
+            <button type="button" class="button button--small invite__button j-copy" data-goal="link">
+                <span class="default">Скопировать ссылку</span>
+                <span class="done">Ссылка скопирована</span>
+            </button>
+        </div>
+    </section>
+    <div class="preloader">
+    <svg class="preloader__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+        <circle cx="50" cy="50" r="0" fill="none" class="preloader__circle" stroke-width="2">
+            <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"></animate>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"></animate>
+        </circle>
+        <circle cx="50" cy="50" r="0" fill="none" class="preloader__circle" stroke-width="2">
+            <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+        </circle>
+    </svg>
+</div>
+</main>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
